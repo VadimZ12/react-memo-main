@@ -1,7 +1,6 @@
 # MVP Карточная игра "Мемо"
 
 В этом репозитории реализован MVP карточкой игры "Мемо" по [тех.заданию](./docs/mvp-spec.md)
-
 Проект задеплоен на gh pages:
 https://skypro-web-developer.github.io/react-memo/
 
@@ -18,7 +17,6 @@ https://skypro-web-developer.github.io/react-memo/
 ### Стек и инструменты
 
 Для стилей в коде используются css modules.
-
 Настроены eslint и prettier. Корректность кода проверяется автоматически перед каждым коммитом с помощью lefthook (аналог husky). Закомитить код, который не проходит проверку eslint не получится.
 
 ### Доступные команды
@@ -26,7 +24,6 @@ https://skypro-web-developer.github.io/react-memo/
 #### `npm start`
 
 Запускает приложение в режиме разработки.
-
 Откройте [http://localhost:3000](http://localhost:3000) чтобы посмотреть его в браузере.
 
 #### `npm run build`
@@ -37,7 +34,6 @@ https://skypro-web-developer.github.io/react-memo/
 #### `npm run deploy`
 
 Деплоит приложение в github pages. По сути, запускает сборку и коммитит билд в ветку gh-pages.
-
 (!) github pages должен быть включен в настройках репозитория и настроен на ветку gh-pages
 
 #### `npm run lint`
