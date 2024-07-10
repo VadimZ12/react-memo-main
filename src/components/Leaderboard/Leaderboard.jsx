@@ -39,7 +39,7 @@ export function Leaderboard() {
       </div>
       <>
         {leaders
-          .slice()
+          .slice(0, 10)
           .sort((a, b) => a.time - b.time)
           .map((leader, index) => {
             const position = index + 1;

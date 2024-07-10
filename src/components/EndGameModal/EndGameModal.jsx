@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styles from "./EndGameModal.module.css";
 
 import { Button } from "../Button/Button";
