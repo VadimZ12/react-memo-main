@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styles from "./EndGameModal.module.css";
 
 import { Button } from "../Button/Button";
@@ -46,8 +47,9 @@ export function EndGameModal({ isWon, gameDurationSeconds, gameDurationMinutes, 
     if (!easyMode) {
       achi.push(1);
     }
-    if (!leaderName) {
+    if (!leaderName.trim()) {
       setErr("Вы не указали имя");
+      return;
     }
     postLeader({
       name: getSafeString(leaderName),
